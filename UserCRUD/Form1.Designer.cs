@@ -129,7 +129,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(28, 259);
@@ -143,7 +143,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(341, 439);
@@ -158,9 +158,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(607, 152);
+            this.listBox1.Location = new System.Drawing.Point(607, 351);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(358, 472);
+            this.listBox1.Size = new System.Drawing.Size(358, 264);
             this.listBox1.TabIndex = 10;
             this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
@@ -213,10 +213,10 @@
             this.button3.BackColor = System.Drawing.Color.Red;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(28, 549);
+            this.button3.Location = new System.Drawing.Point(28, 579);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(256, 68);
+            this.button3.Size = new System.Drawing.Size(130, 38);
             this.button3.TabIndex = 15;
             this.button3.Text = "Kilépés";
             this.button3.UseVisualStyleBackColor = false;
@@ -226,7 +226,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.radioButton1.Location = new System.Drawing.Point(607, 63);
+            this.radioButton1.Location = new System.Drawing.Point(724, 299);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(120, 29);
             this.radioButton1.TabIndex = 16;
@@ -238,7 +238,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.radioButton2.Location = new System.Drawing.Point(607, 98);
+            this.radioButton2.Location = new System.Drawing.Point(607, 299);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(85, 29);
             this.radioButton2.TabIndex = 17;
